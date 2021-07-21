@@ -1,4 +1,4 @@
-name: 'APG Api - Tests'
+name: 'phpaction'
 description: 'Build A Production Environment, And Run Test Suite'
 branding:
   icon: 'terminal'  

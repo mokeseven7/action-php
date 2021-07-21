@@ -12339,6 +12339,11 @@ const os = __nccwpck_require__(2087);
 const PHP_VERSION = core.getInput('php_version');
 const PHP_EXTENSIONS = core.getInput('extensions');
 
+
+async function main() {
+  core.logger.info('Starting 👌');
+}
+
 try {
 
   // Check if PHP is installed
