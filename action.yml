@@ -9,7 +9,7 @@ inputs:
     required: true
     default: 'World'
   php-version:
-    description: 'Who to greet'
+    description: 'what php version'
     required: true
     default: '8'
 outputs:
