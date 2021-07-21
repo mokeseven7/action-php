@@ -1,0 +1,20 @@
+name: 'APG Api - Tests'
+description: 'Build A Production Environment, And Run Test Suite'
+branding:
+  icon: 'terminal'  
+  color: 'red'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+  php-version:
+    description: 'Who to greet'
+    required: true
+    default: '8'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

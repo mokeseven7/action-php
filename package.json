@@ -1,0 +1,28 @@
+{
+  "name": "phpaction",
+  "version": "1.0.0",
+  "description": "doing it",
+  "main": "lib/install.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokeseven7/action-php.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokeseven7/action-php/issues"
+  },
+  "homepage": "https://github.com/mokeseven7/action-php#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^1.1.0",
+    "@actions/io": "^1.1.1",
+    "@vercel/ncc": "^0.29.0",
+    "os": "^0.1.2"
+  }
+}
